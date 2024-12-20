@@ -1,0 +1,5 @@
+C:\Users\Дими\Desktop\godot-tutorial-turn-based-movement-master\.godot\mono\temp\obj\Debug\Godot-TurnBased.csproj.AssemblyReference.cache
+C:\Users\Дими\Desktop\godot-tutorial-turn-based-movement-master\.godot\mono\temp\obj\Debug\Godot-TurnBased.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Дими\Desktop\godot-tutorial-turn-based-movement-master\.godot\mono\temp\obj\Debug\Godot-TurnBased.AssemblyInfoInputs.cache
+C:\Users\Дими\Desktop\godot-tutorial-turn-based-movement-master\.godot\mono\temp\obj\Debug\Godot-TurnBased.AssemblyInfo.cs
+C:\Users\Дими\Desktop\godot-tutorial-turn-based-movement-master\.godot\mono\temp\obj\Debug\Godot-TurnBased.csproj.CoreCompileInputs.cache

@@ -1,0 +1,14 @@
+res://default_env.tres
+res://levels/Level2d.tscn
+res://core/path_finder/PathFinder.gd
+res://core/unit/Unit.gd
+res://core/path_area_tile/PathAreaTile.tscn
+res://core/unit/Unit.tscn
+res://core/units_variations/flying_eye/FlyingEye.tscn
+res://core/units_variations/knight/Knight.tscn
+res://core/units_variations/slime/Slime.tscn
+res://levels/Level2d.gd
+res://levels/Level2d.cs
+res://core/path_area_tile/PathAreaTile.cs
+res://core/unit/Unit.cs
+res://core/path_finder/path_finder.cs

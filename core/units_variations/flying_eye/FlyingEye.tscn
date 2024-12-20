@@ -1,0 +1,88 @@
+[gd_scene load_steps=13 format=3 uid="uid://tg1tkjnp361p"]
+
+[ext_resource type="Texture2D" uid="uid://cy75x0ukakedb" path="res://assets/v1.1 dungeon crawler 16x16 pixel pack/full spritesheet.png" id="1"]
+[ext_resource type="Texture2D" uid="uid://dymswetitbd0r" path="res://assets/v1.1 dungeon crawler 16x16 pixel pack/props_itens/barrel.png" id="2"]
+[ext_resource type="PackedScene" uid="uid://bgf2hf04uv0l6" path="res://core/unit/Unit.tscn" id="3"]
+
+[sub_resource type="AtlasTexture" id="5"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="6"]
+atlas = ExtResource("1")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="7"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="8"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="1"]
+atlas = ExtResource("1")
+region = Rect2(0, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="2"]
+atlas = ExtResource("1")
+region = Rect2(16, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="3"]
+atlas = ExtResource("1")
+region = Rect2(32, 0, 16, 16)
+
+[sub_resource type="AtlasTexture" id="4"]
+atlas = ExtResource("1")
+region = Rect2(48, 0, 16, 16)
+
+[sub_resource type="SpriteFrames" id="9"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("5")
+}, {
+"duration": 1.0,
+"texture": SubResource("6")
+}, {
+"duration": 1.0,
+"texture": SubResource("7")
+}, {
+"duration": 1.0,
+"texture": SubResource("8")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("1")
+}, {
+"duration": 1.0,
+"texture": SubResource("2")
+}, {
+"duration": 1.0,
+"texture": SubResource("3")
+}, {
+"duration": 1.0,
+"texture": SubResource("4")
+}],
+"loop": true,
+"name": &"run",
+"speed": 5.0
+}]
+
+[node name="FlyingEye" instance=ExtResource("3")]
+move_points = null
+
+[node name="AnimatedSprite2D" parent="." index="1"]
+sprite_frames = SubResource("9")
+animation = &"run"
+frame = 0
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="2"]
+position = Vector2(0.441727, 9.20275)
+rotation = 1.5708
+scale = Vector2(0.8, 0.8)
+texture = ExtResource("2")

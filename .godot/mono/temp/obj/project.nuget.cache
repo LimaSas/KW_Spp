@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "y3Qn8cjGGJU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Дими\\Desktop\\godot-tutorial-turn-based-movement-master\\Godot-TurnBased.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Дими\\.nuget\\packages\\godot.sourcegenerators\\4.3.0\\godot.sourcegenerators.4.3.0.nupkg.sha512",
+    "C:\\Users\\Дими\\.nuget\\packages\\godotsharp\\4.3.0\\godotsharp.4.3.0.nupkg.sha512",
+    "C:\\Users\\Дими\\.nuget\\packages\\godotsharpeditor\\4.3.0\\godotsharpeditor.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
